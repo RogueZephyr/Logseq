@@ -1,0 +1,34 @@
+{:blocks (
+{:block/content "Scripting basics"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "681ceac1-d3a2-411e-9dc3-086899bd6a2a"}
+:block/parent 
+{:block/uuid #uuid "681ceac1-d3a2-411e-9dc3-086899bd6a2a"}
+:block/properties 
+{}
+:block/uuid #uuid "681ceac8-67c9-4f96-acd0-58d919972664"} 
+{:block/content ""
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "681ceac8-67c9-4f96-acd0-58d919972664"}
+:block/parent 
+{:block/uuid #uuid "681ceac1-d3a2-411e-9dc3-086899bd6a2a"}
+:block/uuid #uuid "681ceaec-bffd-4f49-8974-763fe9a1e878"})
+:pages (
+{:block/uuid #uuid "681ceac1-d3a2-411e-9dc3-086899bd6a2a"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "681ceac1-d3a2-411e-9dc3-086899bd6a2a"
+:name "roblox"
+:bindings 
+{}
+:nonce 1
+:assets []
+:shapes-index ()}}
+:block/updated-at 1746725624556
+:block/created-at 1746725569091
+:block/type "whiteboard"
+:block/name "roblox"
+:block/original-name "roblox"})}
