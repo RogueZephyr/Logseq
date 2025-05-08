@@ -14,7 +14,43 @@
 {:block/uuid #uuid "681ceac8-67c9-4f96-acd0-58d919972664"}
 :block/parent 
 {:block/uuid #uuid "681ceac1-d3a2-411e-9dc3-086899bd6a2a"}
-:block/uuid #uuid "681ceaec-bffd-4f49-8974-763fe9a1e878"})
+:block/uuid #uuid "681ceaec-bffd-4f49-8974-763fe9a1e878"} 
+{:block/content "This is a git test\nDelete after use"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "681ceaec-bffd-4f49-8974-763fe9a1e878"}
+:block/parent 
+{:block/uuid #uuid "681ceac1-d3a2-411e-9dc3-086899bd6a2a"}
+:block/properties 
+{}
+:block/uuid #uuid "681cee54-d379-46c7-8dca-0dd3dbb0edb7"} 
+{:block/created-at 1746726497570
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 0
+:scale [1 1]
+:pageId "681cee54-d379-46c7-8dca-0dd3dbb0edb7"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 65]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "972792c0-2c34-11f0-8883-77ff0d7537ac"
+:noFill false
+:point [312 304]
+:parentId "681ceac1-d3a2-411e-9dc3-086899bd6a2a"
+:collapsedHeight 0
+:nonce 1746726483441}}
+:block/updated-at 1746726497570})
 :pages (
 {:block/uuid #uuid "681ceac1-d3a2-411e-9dc3-086899bd6a2a"
 :block/properties 
@@ -26,8 +62,8 @@
 {}
 :nonce 1
 :assets []
-:shapes-index ()}}
-:block/updated-at 1746725624556
+:shapes-index ("972792c0-2c34-11f0-8883-77ff0d7537ac")}}
+:block/updated-at 1746726497570
 :block/created-at 1746725569091
 :block/type "whiteboard"
 :block/name "roblox"
