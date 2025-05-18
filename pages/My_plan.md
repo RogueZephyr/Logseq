@@ -1,0 +1,8 @@
+- A mix of first person and RTS view modes
+- ## 1st person mode:
+	- #Combat
+	- #AdvancedMovement
+	- #Exploration
+	- #Building
+- ## RTS mode
+- # WIP

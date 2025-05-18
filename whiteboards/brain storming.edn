@@ -1,0 +1,1371 @@
+{:blocks (
+{:block/content "Core Mechanic Breakdown"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "682952ac-a55a-4cb8-94f1-28060faad185"}
+:block/parent 
+{:block/uuid #uuid "682952ac-a55a-4cb8-94f1-28060faad185"}
+:block/uuid #uuid "68295454-92dd-4a68-8eaf-0ab887c11519"} 
+{:block/content "\n\n**Basic Movement**"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295454-92dd-4a68-8eaf-0ab887c11519"}
+:block/parent 
+{:block/uuid #uuid "68295454-92dd-4a68-8eaf-0ab887c11519"}
+:block/properties 
+{}
+:block/uuid #uuid "68295461-3cba-4bbe-825a-564fdc2a8500"} 
+{:block/content "\n\nWalk, sprint, crouch, and jump."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295461-3cba-4bbe-825a-564fdc2a8500"}
+:block/parent 
+{:block/uuid #uuid "68295461-3cba-4bbe-825a-564fdc2a8500"}
+:block/uuid #uuid "68295461-19fd-42cc-a080-4b11d216b621"} 
+{:block/content "\n\n**Ledge Grab/Vaulting**"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295461-3cba-4bbe-825a-564fdc2a8500"}
+:block/parent 
+{:block/uuid #uuid "68295454-92dd-4a68-8eaf-0ab887c11519"}
+:block/uuid #uuid "68295461-b534-456b-8871-c8841350bec0"} 
+{:block/content "\n\nDetect ledges within reach and pull up."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295461-b534-456b-8871-c8841350bec0"}
+:block/parent 
+{:block/uuid #uuid "68295461-b534-456b-8871-c8841350bec0"}
+:block/uuid #uuid "68295461-1bfb-4963-a039-f8ea4408e04f"} 
+{:block/content "\n\n**Sliding**"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295461-b534-456b-8871-c8841350bec0"}
+:block/parent 
+{:block/uuid #uuid "68295454-92dd-4a68-8eaf-0ab887c11519"}
+:block/uuid #uuid "68295461-a339-4272-8063-d5857092fb79"} 
+{:block/content "\n\nMomentum-based sliding on slopes or flat ground."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295461-a339-4272-8063-d5857092fb79"}
+:block/parent 
+{:block/uuid #uuid "68295461-a339-4272-8063-d5857092fb79"}
+:block/uuid #uuid "68295461-5e5f-4b22-8620-44d02d8db9cb"} 
+{:block/content "\n\n**Grappling Hook**"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295461-a339-4272-8063-d5857092fb79"}
+:block/parent 
+{:block/uuid #uuid "68295454-92dd-4a68-8eaf-0ab887c11519"}
+:block/uuid #uuid "68295461-8bc9-4680-81f9-d4841be9b1e8"} 
+{:block/content "\n\nPhysics-driven swinging/ziplining (unlocked via research)."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295461-8bc9-4680-81f9-d4841be9b1e8"}
+:block/parent 
+{:block/uuid #uuid "68295461-8bc9-4680-81f9-d4841be9b1e8"}
+:block/uuid #uuid "68295461-36a9-432f-9c0f-52e79361225d"} 
+{:block/content "Design Blueprint: Dual Perspective Gameplay"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295454-92dd-4a68-8eaf-0ab887c11519"}
+:block/parent 
+{:block/uuid #uuid "682952ac-a55a-4cb8-94f1-28060faad185"}
+:block/uuid #uuid "68295492-ae32-4be1-af8c-43086e1ceeb4"} 
+{:block/created-at 1747539635324
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 0
+:scale [1 1]
+:pageId "68295492-ae32-4be1-af8c-43086e1ceeb4"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 41]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "94e86870-3398-11f0-b0e8-ff464e185bb6"
+:noFill false
+:point [368 304]
+:parentId "682952ac-a55a-4cb8-94f1-28060faad185"
+:collapsedHeight 0
+:nonce 1747539087963}}
+:block/updated-at 1747539635324} 
+{:block/content "First-Person view (Early Game focus)"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295492-ae32-4be1-af8c-43086e1ceeb4"}
+:block/parent 
+{:block/uuid #uuid "682952ac-a55a-4cb8-94f1-28060faad185"}
+:block/properties 
+{}
+:block/uuid #uuid "682954bd-f24c-45e4-8167-1fd3c5d6fa74"} 
+{:block/content "#### **First-Person View (Early-Game Focus)**"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "682954cd-d339-4760-b201-10e3b085aa2c"}
+:block/parent 
+{:block/uuid #uuid "682952ac-a55a-4cb8-94f1-28060faad185"}
+:block/properties 
+{:heading 4}
+:block/uuid #uuid "682954cb-3b9a-4a7c-bef9-7c024813f00e"} 
+{:block/content "#### **First-Person View (Early-Game Focus)**"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "682954d1-df4c-4cb5-a360-e84c3fcf4db0"}
+:block/parent 
+{:block/uuid #uuid "682952ac-a55a-4cb8-94f1-28060faad185"}
+:block/properties 
+{:heading 4}
+:block/uuid #uuid "682954cd-d339-4760-b201-10e3b085aa2c"} 
+{:block/content "#### **First-Person View (Early-Game Focus)**"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "682954d4-9559-4fbd-ab4c-bac0bc83fade"}
+:block/parent 
+{:block/uuid #uuid "682952ac-a55a-4cb8-94f1-28060faad185"}
+:block/properties 
+{:heading 4}
+:block/uuid #uuid "682954d1-df4c-4cb5-a360-e84c3fcf4db0"} 
+{:block/content "#### **First-Person View (Early-Game Focus)**"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "682954d7-eec9-41d5-8878-aca33e99d70c"}
+:block/parent 
+{:block/uuid #uuid "682952ac-a55a-4cb8-94f1-28060faad185"}
+:block/properties 
+{:heading 4}
+:block/uuid #uuid "682954d4-9559-4fbd-ab4c-bac0bc83fade"} 
+{:block/content "#### **First-Person View (Early-Game Focus)**"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "682954bd-f24c-45e4-8167-1fd3c5d6fa74"}
+:block/parent 
+{:block/uuid #uuid "682952ac-a55a-4cb8-94f1-28060faad185"}
+:block/properties 
+{:heading 4}
+:block/uuid #uuid "682954d7-eec9-41d5-8878-aca33e99d70c"} 
+{:block/content ""
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "682954cb-3b9a-4a7c-bef9-7c024813f00e"}
+:block/parent 
+{:block/uuid #uuid "682952ac-a55a-4cb8-94f1-28060faad185"}
+:block/properties 
+{}
+:block/uuid #uuid "6829550d-66f2-45f8-94fb-91c68e8aba30"} 
+{:block/content "First Person View (Early Game Focus)"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6829550d-66f2-45f8-94fb-91c68e8aba30"}
+:block/parent 
+{:block/uuid #uuid "682952ac-a55a-4cb8-94f1-28060faad185"}
+:block/properties 
+{}
+:block/uuid #uuid "68295559-a5dd-4ba7-be9d-6d27b0738f1b"} 
+{:block/content "\n\n**Role**: Hands-on combat, manual building, and resource gathering."
+:block/format :markdown
+:block/properties 
+{}
+:block/uuid #uuid "68295587-c41d-4660-b8e2-fdf46108750f"} 
+{:block/content "\n\n**Mechanics**:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295587-c41d-4660-b8e2-fdf46108750f"}
+:block/uuid #uuid "68295587-30ec-4255-890b-ece7024e2f60"} 
+{:block/content "\n\n**Movement & Combat**:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295587-30ec-4255-890b-ece7024e2f60"}
+:block/parent 
+{:block/uuid #uuid "68295587-30ec-4255-890b-ece7024e2f60"}
+:block/uuid #uuid "68295587-d4b4-444e-b86d-4e3053d61831"} 
+{:block/content "\n\nFight enemies directly with weapons crafted from early-game resources."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295587-d4b4-444e-b86d-4e3053d61831"}
+:block/parent 
+{:block/uuid #uuid "68295587-d4b4-444e-b86d-4e3053d61831"}
+:block/uuid #uuid "68295587-e762-4567-b66e-91e9a9b07fda"} 
+{:block/content "\n\nUse tools to repair defenses or sabotage enemy spawners."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295587-e762-4567-b66e-91e9a9b07fda"}
+:block/parent 
+{:block/uuid #uuid "68295587-d4b4-444e-b86d-4e3053d61831"}
+:block/uuid #uuid "68295587-5c4f-4479-aa3f-97ed58879143"} 
+{:block/content "\n\n**Localized Building**:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295587-d4b4-444e-b86d-4e3053d61831"}
+:block/parent 
+{:block/uuid #uuid "68295587-30ec-4255-890b-ece7024e2f60"}
+:block/uuid #uuid "68295587-7d04-4563-8c1c-a092b582ff38"} 
+{:block/content "\n\nPlace structures only within your line of sight (e.g., walls, turrets, small factories)."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295587-7d04-4563-8c1c-a092b582ff38"}
+:block/parent 
+{:block/uuid #uuid "68295587-7d04-4563-8c1c-a092b582ff38"}
+:block/uuid #uuid "68295587-7aaf-4f58-8907-2022abd0107b"} 
+{:block/content "\n\nRequires \"carrying\" materials physically (e.g., lugging steel beams to a build site)."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295587-7aaf-4f58-8907-2022abd0107b"}
+:block/parent 
+{:block/uuid #uuid "68295587-7d04-4563-8c1c-a092b582ff38"}
+:block/uuid #uuid "68295587-59c5-4d5f-b29f-6f8ac15692f7"} 
+{:block/content "\n\n**Scouting**:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295587-7d04-4563-8c1c-a092b582ff38"}
+:block/parent 
+{:block/uuid #uuid "68295587-30ec-4255-890b-ece7024e2f60"}
+:block/uuid #uuid "68295587-6fac-4e48-aa91-58efc5b55212"} 
+{:block/content "\n\nDiscover resource nodes, enemy nests, or terrain choke points."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295587-6fac-4e48-aa91-58efc5b55212"}
+:block/parent 
+{:block/uuid #uuid "68295587-6fac-4e48-aa91-58efc5b55212"}
+:block/uuid #uuid "68295587-596d-4d6f-928b-07e0b59b9261"} 
+{:block/content "\n\n**Progression Tie-In**:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295587-30ec-4255-890b-ece7024e2f60"}
+:block/uuid #uuid "68295587-785a-4f04-a585-e6dcd2aa99b2"} 
+{:block/content "\n\nEarly-game tech forces reliance on first-person action (e.g., no drones for automation yet)."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295587-785a-4f04-a585-e6dcd2aa99b2"}
+:block/parent 
+{:block/uuid #uuid "68295587-785a-4f04-a585-e6dcd2aa99b2"}
+:block/uuid #uuid "68295587-3c0b-45e1-aafc-160cb54a5691"} 
+{:block/content "\n\nCritical tasks (e.g., restarting a broken generator) require manual intervention."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295587-3c0b-45e1-aafc-160cb54a5691"}
+:block/parent 
+{:block/uuid #uuid "68295587-785a-4f04-a585-e6dcd2aa99b2"}
+:block/uuid #uuid "68295587-84aa-4a27-96f1-868ce6b1381a"} 
+{:block/content "First Person View (Early Game Focus)"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295559-a5dd-4ba7-be9d-6d27b0738f1b"}
+:block/parent 
+{:block/uuid #uuid "682952ac-a55a-4cb8-94f1-28060faad185"}
+:block/properties 
+{}
+:block/uuid #uuid "682955a6-d766-4b28-9ec9-7c405ab6dcfe"} 
+{:block/created-at 1747539626666
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 1
+:scale [1 1]
+:pageId "682955a6-d766-4b28-9ec9-7c405ab6dcfe"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 826]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "3a268060-3399-11f0-b0e8-ff464e185bb6"
+:noFill false
+:point [160 376]
+:parentId "682952ac-a55a-4cb8-94f1-28060faad185"
+:collapsedHeight 0
+:nonce 1747539364721}}
+:block/updated-at 1747539626666} 
+{:block/content "\n\n**Role**: Hands-on combat, manual building, and resource gathering."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "682955a6-d766-4b28-9ec9-7c405ab6dcfe"}
+:block/parent 
+{:block/uuid #uuid "682955a6-d766-4b28-9ec9-7c405ab6dcfe"}
+:block/properties 
+{}
+:block/uuid #uuid "682955bc-4c56-4380-a0af-97f342977fec"} 
+{:block/content "\n\n**Mechanics**:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "682955bc-4c56-4380-a0af-97f342977fec"}
+:block/parent 
+{:block/uuid #uuid "682955a6-d766-4b28-9ec9-7c405ab6dcfe"}
+:block/uuid #uuid "682955bc-6b55-4fee-974b-bcfb56fa4cc5"} 
+{:block/content "\n\n**Movement & Combat**:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "682955bc-6b55-4fee-974b-bcfb56fa4cc5"}
+:block/parent 
+{:block/uuid #uuid "682955bc-6b55-4fee-974b-bcfb56fa4cc5"}
+:block/uuid #uuid "682955bc-7082-49f3-9f0b-2796c33feafa"} 
+{:block/content "\n\nFight enemies directly with weapons crafted from early-game resources."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "682955bc-7082-49f3-9f0b-2796c33feafa"}
+:block/parent 
+{:block/uuid #uuid "682955bc-7082-49f3-9f0b-2796c33feafa"}
+:block/uuid #uuid "682955bc-1bc1-4c2b-b15f-082d93c90707"} 
+{:block/content "\n\nUse tools to repair defenses or sabotage enemy spawners."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "682955bc-1bc1-4c2b-b15f-082d93c90707"}
+:block/parent 
+{:block/uuid #uuid "682955bc-7082-49f3-9f0b-2796c33feafa"}
+:block/uuid #uuid "682955bc-b6c2-43ee-8b26-6bd4cb39a239"} 
+{:block/content "\n\n**Localized Building**:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "682955bc-7082-49f3-9f0b-2796c33feafa"}
+:block/parent 
+{:block/uuid #uuid "682955bc-6b55-4fee-974b-bcfb56fa4cc5"}
+:block/uuid #uuid "682955bc-a9b3-45ca-8284-90771e98dad3"} 
+{:block/content "\n\nPlace structures only within your line of sight (e.g., walls, turrets, small factories)."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "682955bc-a9b3-45ca-8284-90771e98dad3"}
+:block/parent 
+{:block/uuid #uuid "682955bc-a9b3-45ca-8284-90771e98dad3"}
+:block/uuid #uuid "682955bc-72d8-42c0-a295-edeb0f0c83f2"} 
+{:block/content "\n\nRequires \"carrying\" materials physically (e.g., lugging steel beams to a build site)."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "682955bc-72d8-42c0-a295-edeb0f0c83f2"}
+:block/parent 
+{:block/uuid #uuid "682955bc-a9b3-45ca-8284-90771e98dad3"}
+:block/uuid #uuid "682955bc-66f5-45b2-a469-c79e7c4f14c5"} 
+{:block/content "\n\n**Scouting**:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "682955bc-a9b3-45ca-8284-90771e98dad3"}
+:block/parent 
+{:block/uuid #uuid "682955bc-6b55-4fee-974b-bcfb56fa4cc5"}
+:block/uuid #uuid "682955bc-5086-46ea-bb23-5e2364b67c31"} 
+{:block/content "\n\nDiscover resource nodes, enemy nests, or terrain choke points."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "682955bc-5086-46ea-bb23-5e2364b67c31"}
+:block/parent 
+{:block/uuid #uuid "682955bc-5086-46ea-bb23-5e2364b67c31"}
+:block/uuid #uuid "682955bc-c55b-4f5a-924d-3323eeaa4c60"} 
+{:block/content "\n\n**Progression Tie-In**:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "682955bc-6b55-4fee-974b-bcfb56fa4cc5"}
+:block/parent 
+{:block/uuid #uuid "682955a6-d766-4b28-9ec9-7c405ab6dcfe"}
+:block/uuid #uuid "682955bc-3cc3-4049-8094-1179fc12897e"} 
+{:block/content "\n\nEarly-game tech forces reliance on first-person action (e.g., no drones for automation yet)."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "682955bc-3cc3-4049-8094-1179fc12897e"}
+:block/parent 
+{:block/uuid #uuid "682955bc-3cc3-4049-8094-1179fc12897e"}
+:block/uuid #uuid "682955bc-bc01-4ed4-829f-be8a4d3a94c9"} 
+{:block/content "\n\nCritical tasks (e.g., restarting a broken generator) require manual intervention."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "682955bc-bc01-4ed4-829f-be8a4d3a94c9"}
+:block/parent 
+{:block/uuid #uuid "682955bc-3cc3-4049-8094-1179fc12897e"}
+:block/uuid #uuid "682955bc-dc6d-489b-9685-ef74cad9a2e6"} 
+{:block/content "RTS Mode (Unlocked via exploration)"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "682955a6-d766-4b28-9ec9-7c405ab6dcfe"}
+:block/parent 
+{:block/uuid #uuid "682952ac-a55a-4cb8-94f1-28060faad185"}
+:block/properties 
+{}
+:block/uuid #uuid "682955c7-d123-4a0d-9d1a-30518c40dd38"} 
+{:block/created-at 1747539450589
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 2
+:scale [1 1]
+:pageId "682955c7-d123-4a0d-9d1a-30518c40dd38"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 850]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "4e75a0f0-3399-11f0-b0e8-ff464e185bb6"
+:noFill false
+:point [592 376]
+:parentId "682952ac-a55a-4cb8-94f1-28060faad185"
+:collapsedHeight 0
+:nonce 1747539398947}}
+:block/updated-at 1747539450589} 
+{:block/content "\n\n**Role**: Macro-scale strategy, automation, and unit management."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "682955c7-d123-4a0d-9d1a-30518c40dd38"}
+:block/parent 
+{:block/uuid #uuid "682955c7-d123-4a0d-9d1a-30518c40dd38"}
+:block/properties 
+{}
+:block/uuid #uuid "682955ec-f165-47bf-a9eb-8e232eabf1b1"} 
+{:block/content "\n\n**Mechanics**:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "682955ec-f165-47bf-a9eb-8e232eabf1b1"}
+:block/parent 
+{:block/uuid #uuid "682955c7-d123-4a0d-9d1a-30518c40dd38"}
+:block/uuid #uuid "682955ec-786b-4ed8-bb13-ee47938d9a24"} 
+{:block/content "\n\n**Base Building**:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "682955ec-786b-4ed8-bb13-ee47938d9a24"}
+:block/parent 
+{:block/uuid #uuid "682955ec-786b-4ed8-bb13-ee47938d9a24"}
+:block/uuid #uuid "682955ec-ec9a-43cc-bb62-0ba3a8c014c5"} 
+{:block/content "\n\nDesign large-scale factories, conveyor networks, and defense grids."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "682955ec-ec9a-43cc-bb62-0ba3a8c014c5"}
+:block/parent 
+{:block/uuid #uuid "682955ec-ec9a-43cc-bb62-0ba3a8c014c5"}
+:block/uuid #uuid "682955ec-2e21-4fe5-a9bf-a67743439f2f"} 
+{:block/content "\n\nAssign AI-controlled workers/drones to automate tasks."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "682955ec-2e21-4fe5-a9bf-a67743439f2f"}
+:block/parent 
+{:block/uuid #uuid "682955ec-ec9a-43cc-bb62-0ba3a8c014c5"}
+:block/uuid #uuid "682955ec-e471-4387-b5a9-9fa678756a2c"} 
+{:block/content "\n\n**Unit Commands**:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "682955ec-ec9a-43cc-bb62-0ba3a8c014c5"}
+:block/parent 
+{:block/uuid #uuid "682955ec-786b-4ed8-bb13-ee47938d9a24"}
+:block/uuid #uuid "682955ec-17cd-4714-ae5b-28c84d4132ce"} 
+{:block/content "\n\nDeploy squads to defend choke points or raid enemy bases."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "682955ec-17cd-4714-ae5b-28c84d4132ce"}
+:block/parent 
+{:block/uuid #uuid "682955ec-17cd-4714-ae5b-28c84d4132ce"}
+:block/uuid #uuid "682955ec-a264-4378-ad7b-3a74a1751b32"} 
+{:block/content "\n\nSet patrol routes for combat drones or repair bots."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "682955ec-a264-4378-ad7b-3a74a1751b32"}
+:block/parent 
+{:block/uuid #uuid "682955ec-17cd-4714-ae5b-28c84d4132ce"}
+:block/uuid #uuid "682955ec-4bab-4137-abbf-4f2e4d1085a6"} 
+{:block/content "\n\n**Resource Management**:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "682955ec-17cd-4714-ae5b-28c84d4132ce"}
+:block/parent 
+{:block/uuid #uuid "682955ec-786b-4ed8-bb13-ee47938d9a24"}
+:block/uuid #uuid "682955ec-f9a7-4f2c-b41f-f6b6c9860afc"} 
+{:block/content "\n\nMonitor supply chains and allocate resources to critical systems (e.g., divert power to shields during attacks)."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "682955ec-f9a7-4f2c-b41f-f6b6c9860afc"}
+:block/parent 
+{:block/uuid #uuid "682955ec-f9a7-4f2c-b41f-f6b6c9860afc"}
+:block/uuid #uuid "682955ec-7260-4031-8e01-806de6c1ec2b"} 
+{:block/content "\n\n**Progression Tie-In**:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "682955ec-786b-4ed8-bb13-ee47938d9a24"}
+:block/parent 
+{:block/uuid #uuid "682955c7-d123-4a0d-9d1a-30518c40dd38"}
+:block/uuid #uuid "682955ec-5bfe-41e4-bbac-0bd6ace7684b"} 
+{:block/content "\n\nUnlock RTS view via mid-game tech (e.g., \"Command Center\" building)."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "682955ec-5bfe-41e4-bbac-0bd6ace7684b"}
+:block/parent 
+{:block/uuid #uuid "682955ec-5bfe-41e4-bbac-0bd6ace7684b"}
+:block/uuid #uuid "682955ec-5ec5-4080-933d-9e6523085b8a"} 
+{:block/content "\n\nLate-game threats (e.g., massive enemy swarms) require efficient RTS macro to survive."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "682955ec-5ec5-4080-933d-9e6523085b8a"}
+:block/parent 
+{:block/uuid #uuid "682955ec-5bfe-41e4-bbac-0bd6ace7684b"}
+:block/uuid #uuid "682955ec-4e17-438c-b78c-b0fd08309170"} 
+{:block/content "Key Technical Challenges & solutions (Deepseek)"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "682955c7-d123-4a0d-9d1a-30518c40dd38"}
+:block/parent 
+{:block/uuid #uuid "682952ac-a55a-4cb8-94f1-28060faad185"}
+:block/properties 
+{}
+:block/uuid #uuid "68295615-7a84-4e24-9f0e-ddb37a392af1"} 
+{:block/created-at 1747539638068
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 3
+:scale [1 1]
+:pageId "68295615-7a84-4e24-9f0e-ddb37a392af1"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 1120.7499729478766]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "7c9e3000-3399-11f0-b0e8-ff464e185bb6"
+:noFill false
+:point [-360 376]
+:parentId "682952ac-a55a-4cb8-94f1-28060faad185"
+:collapsedHeight 0
+:nonce 1747539476440}}
+:block/updated-at 1747539638068} 
+{:block/content "### **Key Technical Challenges & Solutions**"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295622-9a31-460d-8c56-747a48b75df5"}
+:block/parent 
+{:block/uuid #uuid "682952ac-a55a-4cb8-94f1-28060faad185"}
+:block/properties 
+{:heading 3}
+:block/uuid #uuid "6829561d-5af4-4e99-b7c0-783e925781a7"} 
+{:block/content "\n\n**Switching Perspectives Smoothly**"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6829561d-5af4-4e99-b7c0-783e925781a7"}
+:block/parent 
+{:block/uuid #uuid "682952ac-a55a-4cb8-94f1-28060faad185"}
+:block/uuid #uuid "6829561d-a6d0-4132-ac41-7b2f72aaf594"} 
+{:block/content "\n\n**Godot Tip**: Use `Viewport` nodes or separate cameras with layer masks to toggle between views."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6829561d-a6d0-4132-ac41-7b2f72aaf594"}
+:block/parent 
+{:block/uuid #uuid "6829561d-a6d0-4132-ac41-7b2f72aaf594"}
+:block/uuid #uuid "6829561d-2073-4560-950d-6ab629a84ef6"} 
+{:block/content "\n\n**Input Handling**:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6829561d-2073-4560-950d-6ab629a84ef6"}
+:block/parent 
+{:block/uuid #uuid "6829561d-a6d0-4132-ac41-7b2f72aaf594"}
+:block/uuid #uuid "6829561d-eb41-414f-ad0a-a2692c3d38e5"} 
+{:block/content "\n\nFirst-person: WASD + mouse for movement/aiming."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6829561d-eb41-414f-ad0a-a2692c3d38e5"}
+:block/parent 
+{:block/uuid #uuid "6829561d-eb41-414f-ad0a-a2692c3d38e5"}
+:block/uuid #uuid "6829561d-4c74-404c-b352-1506a21d3f57"} 
+{:block/content "\n\nRTS: Click-to-select units, drag-to-marquee, and hotkeys for commands."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6829561d-4c74-404c-b352-1506a21d3f57"}
+:block/parent 
+{:block/uuid #uuid "6829561d-eb41-414f-ad0a-a2692c3d38e5"}
+:block/uuid #uuid "6829561d-4cef-48ee-988e-b036848e8adb"} 
+{:block/content "\n\n**UI**:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6829561d-eb41-414f-ad0a-a2692c3d38e5"}
+:block/parent 
+{:block/uuid #uuid "6829561d-a6d0-4132-ac41-7b2f72aaf594"}
+:block/uuid #uuid "6829561d-ebff-4108-b469-b83a3b0415eb"} 
+{:block/content "\n\nFirst-person: Diegetic UI (e.g., holographic wrist display for health/ammo)."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6829561d-ebff-4108-b469-b83a3b0415eb"}
+:block/parent 
+{:block/uuid #uuid "6829561d-ebff-4108-b469-b83a3b0415eb"}
+:block/uuid #uuid "6829561d-26cd-41e3-8325-546b884f4b54"} 
+{:block/content "\n\nRTS: Minimalist overlay with resource counters and unit panels."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6829561d-26cd-41e3-8325-546b884f4b54"}
+:block/parent 
+{:block/uuid #uuid "6829561d-ebff-4108-b469-b83a3b0415eb"}
+:block/uuid #uuid "6829561d-566b-483c-b70b-209b26902a95"} 
+{:block/content "\n\n**AI Behavior for Automated Units**"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6829561d-a6d0-4132-ac41-7b2f72aaf594"}
+:block/parent 
+{:block/uuid #uuid "682952ac-a55a-4cb8-94f1-28060faad185"}
+:block/uuid #uuid "6829561d-a14d-485c-8eef-db9cd743ac83"} 
+{:block/content "\n\nUse Godot’s `NavigationServer2D` for pathfinding (RTS view)."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6829561d-a14d-485c-8eef-db9cd743ac83"}
+:block/parent 
+{:block/uuid #uuid "6829561d-a14d-485c-8eef-db9cd743ac83"}
+:block/uuid #uuid "6829561d-fa4b-4c9a-8403-2d0ddd5ed5b8"} 
+{:block/content "\n\nFor drones/workers, implement a **priority system** (e.g., \"Repair damaged turrets > Collect resources > Patrol\")."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6829561d-fa4b-4c9a-8403-2d0ddd5ed5b8"}
+:block/parent 
+{:block/uuid #uuid "6829561d-a14d-485c-8eef-db9cd743ac83"}
+:block/uuid #uuid "6829561d-33ba-4267-a850-19f4d7228d20"} 
+{:block/content "\n\n**Balancing Dual Perspectives**"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6829561d-a14d-485c-8eef-db9cd743ac83"}
+:block/parent 
+{:block/uuid #uuid "682952ac-a55a-4cb8-94f1-28060faad185"}
+:block/uuid #uuid "6829561d-8958-41f0-a17c-6d7710f610cf"} 
+{:block/content "\n\n**Cooldowns**:\nSwitching views too frequently could feel jarring. Add a short cooldown\nor require the player to \"deploy\" into a Command Center to use RTS \nmode."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6829561d-8958-41f0-a17c-6d7710f610cf"}
+:block/parent 
+{:block/uuid #uuid "6829561d-8958-41f0-a17c-6d7710f610cf"}
+:block/uuid #uuid "6829561d-f61d-4fbb-ab84-89d5a0f61f5f"} 
+{:block/content "\n\n**Shared Resources**: Ensure actions in one view affect the other (e.g., building a turret in RTS mode drains materials gathered in first-person)."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6829561d-f61d-4fbb-ab84-89d5a0f61f5f"}
+:block/parent 
+{:block/uuid #uuid "6829561d-8958-41f0-a17c-6d7710f610cf"}
+:block/uuid #uuid "6829561d-d3ed-4686-beef-1c02c6da58c3"} 
+{:block/content "### **Key Technical Challenges & Solutions**"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295628-d01d-49e5-b3b5-ec687a5f67a9"}
+:block/parent 
+{:block/uuid #uuid "682952ac-a55a-4cb8-94f1-28060faad185"}
+:block/properties 
+{:heading 3}
+:block/uuid #uuid "68295622-8433-42c3-8f6e-f658790b9bfd"} 
+{:block/content "\n\n**Switching Perspectives Smoothly**"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295622-8433-42c3-8f6e-f658790b9bfd"}
+:block/parent 
+{:block/uuid #uuid "682952ac-a55a-4cb8-94f1-28060faad185"}
+:block/uuid #uuid "68295622-7525-4373-9d70-948b005e924f"} 
+{:block/content "\n\n**Godot Tip**: Use `Viewport` nodes or separate cameras with layer masks to toggle between views."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295622-7525-4373-9d70-948b005e924f"}
+:block/parent 
+{:block/uuid #uuid "68295622-7525-4373-9d70-948b005e924f"}
+:block/uuid #uuid "68295622-5369-4499-b2a4-b236ba614653"} 
+{:block/content "\n\n**Input Handling**:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295622-5369-4499-b2a4-b236ba614653"}
+:block/parent 
+{:block/uuid #uuid "68295622-7525-4373-9d70-948b005e924f"}
+:block/uuid #uuid "68295622-7e41-46c0-9c9a-2bee5803a19a"} 
+{:block/content "\n\nFirst-person: WASD + mouse for movement/aiming."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295622-7e41-46c0-9c9a-2bee5803a19a"}
+:block/parent 
+{:block/uuid #uuid "68295622-7e41-46c0-9c9a-2bee5803a19a"}
+:block/uuid #uuid "68295622-347b-449a-9596-7c9edb6462a4"} 
+{:block/content "\n\nRTS: Click-to-select units, drag-to-marquee, and hotkeys for commands."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295622-347b-449a-9596-7c9edb6462a4"}
+:block/parent 
+{:block/uuid #uuid "68295622-7e41-46c0-9c9a-2bee5803a19a"}
+:block/uuid #uuid "68295622-7178-408c-b71e-bdfa4606cc52"} 
+{:block/content "\n\n**UI**:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295622-7e41-46c0-9c9a-2bee5803a19a"}
+:block/parent 
+{:block/uuid #uuid "68295622-7525-4373-9d70-948b005e924f"}
+:block/uuid #uuid "68295622-1217-41d3-ad30-562eb9ae37fc"} 
+{:block/content "\n\nFirst-person: Diegetic UI (e.g., holographic wrist display for health/ammo)."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295622-1217-41d3-ad30-562eb9ae37fc"}
+:block/parent 
+{:block/uuid #uuid "68295622-1217-41d3-ad30-562eb9ae37fc"}
+:block/uuid #uuid "68295622-4c69-4675-a02b-223fd4ba93e9"} 
+{:block/content "\n\nRTS: Minimalist overlay with resource counters and unit panels."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295622-4c69-4675-a02b-223fd4ba93e9"}
+:block/parent 
+{:block/uuid #uuid "68295622-1217-41d3-ad30-562eb9ae37fc"}
+:block/uuid #uuid "68295622-e30c-487a-b99a-7bd2be509f17"} 
+{:block/content "\n\n**AI Behavior for Automated Units**"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295622-7525-4373-9d70-948b005e924f"}
+:block/parent 
+{:block/uuid #uuid "682952ac-a55a-4cb8-94f1-28060faad185"}
+:block/uuid #uuid "68295622-1337-41c7-a330-58b9700b6252"} 
+{:block/content "\n\nUse Godot’s `NavigationServer2D` for pathfinding (RTS view)."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295622-1337-41c7-a330-58b9700b6252"}
+:block/parent 
+{:block/uuid #uuid "68295622-1337-41c7-a330-58b9700b6252"}
+:block/uuid #uuid "68295622-ba0f-4e46-b044-309a7bd2202f"} 
+{:block/content "\n\nFor drones/workers, implement a **priority system** (e.g., \"Repair damaged turrets > Collect resources > Patrol\")."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295622-ba0f-4e46-b044-309a7bd2202f"}
+:block/parent 
+{:block/uuid #uuid "68295622-1337-41c7-a330-58b9700b6252"}
+:block/uuid #uuid "68295622-20e4-4ee5-a26e-79c4a851a059"} 
+{:block/content "\n\n**Balancing Dual Perspectives**"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295622-1337-41c7-a330-58b9700b6252"}
+:block/parent 
+{:block/uuid #uuid "682952ac-a55a-4cb8-94f1-28060faad185"}
+:block/uuid #uuid "68295622-9a31-460d-8c56-747a48b75df5"} 
+{:block/content "\n\n**Cooldowns**:\nSwitching views too frequently could feel jarring. Add a short cooldown\nor require the player to \"deploy\" into a Command Center to use RTS \nmode."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295622-9a31-460d-8c56-747a48b75df5"}
+:block/parent 
+{:block/uuid #uuid "68295622-9a31-460d-8c56-747a48b75df5"}
+:block/uuid #uuid "68295622-792d-4316-afa5-2774eb2861eb"} 
+{:block/content "\n\n**Shared Resources**: Ensure actions in one view affect the other (e.g., building a turret in RTS mode drains materials gathered in first-person)."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295622-792d-4316-afa5-2774eb2861eb"}
+:block/parent 
+{:block/uuid #uuid "68295622-9a31-460d-8c56-747a48b75df5"}
+:block/uuid #uuid "68295622-3509-4469-9775-a4c8da5c8f9c"} 
+{:block/content "### **Key Technical Challenges & Solutions**"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295635-a1cf-4a38-8d96-ff6b29db8d40"}
+:block/parent 
+{:block/uuid #uuid "682952ac-a55a-4cb8-94f1-28060faad185"}
+:block/properties 
+{:heading 3}
+:block/uuid #uuid "68295628-be19-4599-86e6-19ec24dd652e"} 
+{:block/content "\n\n**Switching Perspectives Smoothly**"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295628-be19-4599-86e6-19ec24dd652e"}
+:block/parent 
+{:block/uuid #uuid "682952ac-a55a-4cb8-94f1-28060faad185"}
+:block/uuid #uuid "68295628-442c-469d-b1e6-81a8ae9a2583"} 
+{:block/content "\n\n**Godot Tip**: Use `Viewport` nodes or separate cameras with layer masks to toggle between views."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295628-442c-469d-b1e6-81a8ae9a2583"}
+:block/parent 
+{:block/uuid #uuid "68295628-442c-469d-b1e6-81a8ae9a2583"}
+:block/uuid #uuid "68295628-7a4c-45a2-b3cc-20e7c82eacfc"} 
+{:block/content "\n\n**Input Handling**:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295628-7a4c-45a2-b3cc-20e7c82eacfc"}
+:block/parent 
+{:block/uuid #uuid "68295628-442c-469d-b1e6-81a8ae9a2583"}
+:block/uuid #uuid "68295628-6db7-4286-9f47-a78bfaf9f5de"} 
+{:block/content "\n\nFirst-person: WASD + mouse for movement/aiming."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295628-6db7-4286-9f47-a78bfaf9f5de"}
+:block/parent 
+{:block/uuid #uuid "68295628-6db7-4286-9f47-a78bfaf9f5de"}
+:block/uuid #uuid "68295628-0da0-484b-afff-a57219b0264b"} 
+{:block/content "\n\nRTS: Click-to-select units, drag-to-marquee, and hotkeys for commands."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295628-0da0-484b-afff-a57219b0264b"}
+:block/parent 
+{:block/uuid #uuid "68295628-6db7-4286-9f47-a78bfaf9f5de"}
+:block/uuid #uuid "68295628-097f-4c88-86c3-2b67790793cf"} 
+{:block/content "\n\n**UI**:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295628-6db7-4286-9f47-a78bfaf9f5de"}
+:block/parent 
+{:block/uuid #uuid "68295628-442c-469d-b1e6-81a8ae9a2583"}
+:block/uuid #uuid "68295628-755d-451e-bba3-e57b2d99a97e"} 
+{:block/content "\n\nFirst-person: Diegetic UI (e.g., holographic wrist display for health/ammo)."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295628-755d-451e-bba3-e57b2d99a97e"}
+:block/parent 
+{:block/uuid #uuid "68295628-755d-451e-bba3-e57b2d99a97e"}
+:block/uuid #uuid "68295628-c194-41fa-87f7-a3db4bd04d05"} 
+{:block/content "\n\nRTS: Minimalist overlay with resource counters and unit panels."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295628-c194-41fa-87f7-a3db4bd04d05"}
+:block/parent 
+{:block/uuid #uuid "68295628-755d-451e-bba3-e57b2d99a97e"}
+:block/uuid #uuid "68295628-7ff9-4ef6-8d30-5f68c0949999"} 
+{:block/content "\n\n**AI Behavior for Automated Units**"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295628-442c-469d-b1e6-81a8ae9a2583"}
+:block/parent 
+{:block/uuid #uuid "682952ac-a55a-4cb8-94f1-28060faad185"}
+:block/uuid #uuid "68295628-47ec-457a-8b3d-8235e927c643"} 
+{:block/content "\n\nUse Godot’s `NavigationServer2D` for pathfinding (RTS view)."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295628-47ec-457a-8b3d-8235e927c643"}
+:block/parent 
+{:block/uuid #uuid "68295628-47ec-457a-8b3d-8235e927c643"}
+:block/uuid #uuid "68295628-1521-4b40-b16e-329695474582"} 
+{:block/content "\n\nFor drones/workers, implement a **priority system** (e.g., \"Repair damaged turrets > Collect resources > Patrol\")."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295628-1521-4b40-b16e-329695474582"}
+:block/parent 
+{:block/uuid #uuid "68295628-47ec-457a-8b3d-8235e927c643"}
+:block/uuid #uuid "68295628-282c-4e2e-9670-325242f00933"} 
+{:block/content "\n\n**Balancing Dual Perspectives**"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295628-47ec-457a-8b3d-8235e927c643"}
+:block/parent 
+{:block/uuid #uuid "682952ac-a55a-4cb8-94f1-28060faad185"}
+:block/uuid #uuid "68295628-d01d-49e5-b3b5-ec687a5f67a9"} 
+{:block/content "\n\n**Cooldowns**:\nSwitching views too frequently could feel jarring. Add a short cooldown\nor require the player to \"deploy\" into a Command Center to use RTS \nmode."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295628-d01d-49e5-b3b5-ec687a5f67a9"}
+:block/parent 
+{:block/uuid #uuid "68295628-d01d-49e5-b3b5-ec687a5f67a9"}
+:block/uuid #uuid "68295628-ec3f-4b9d-8283-2fecdcf3b5df"} 
+{:block/content "\n\n**Shared Resources**: Ensure actions in one view affect the other (e.g., building a turret in RTS mode drains materials gathered in first-person)."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295628-ec3f-4b9d-8283-2fecdcf3b5df"}
+:block/parent 
+{:block/uuid #uuid "68295628-d01d-49e5-b3b5-ec687a5f67a9"}
+:block/uuid #uuid "68295628-ac1e-4c0c-99a2-55ab42c17233"} 
+{:block/content "### **Key Technical Challenges & Solutions**"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6829563b-5d17-4cb2-81af-017570ca5e68"}
+:block/parent 
+{:block/uuid #uuid "682952ac-a55a-4cb8-94f1-28060faad185"}
+:block/properties 
+{:heading 3}
+:block/uuid #uuid "68295635-6d3e-4bb8-a2c5-0882c0520e44"} 
+{:block/content "\n\n**Switching Perspectives Smoothly**"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295635-6d3e-4bb8-a2c5-0882c0520e44"}
+:block/parent 
+{:block/uuid #uuid "682952ac-a55a-4cb8-94f1-28060faad185"}
+:block/uuid #uuid "68295635-46b3-431f-859d-6ef1e0148ef6"} 
+{:block/content "\n\n**Godot Tip**: Use `Viewport` nodes or separate cameras with layer masks to toggle between views."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295635-46b3-431f-859d-6ef1e0148ef6"}
+:block/parent 
+{:block/uuid #uuid "68295635-46b3-431f-859d-6ef1e0148ef6"}
+:block/uuid #uuid "68295635-f0ee-4331-839b-1d12b9ab7125"} 
+{:block/content "\n\n**Input Handling**:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295635-f0ee-4331-839b-1d12b9ab7125"}
+:block/parent 
+{:block/uuid #uuid "68295635-46b3-431f-859d-6ef1e0148ef6"}
+:block/uuid #uuid "68295635-ab9a-4f2c-a96f-35e5e5c64873"} 
+{:block/content "\n\nFirst-person: WASD + mouse for movement/aiming."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295635-ab9a-4f2c-a96f-35e5e5c64873"}
+:block/parent 
+{:block/uuid #uuid "68295635-ab9a-4f2c-a96f-35e5e5c64873"}
+:block/uuid #uuid "68295635-4e48-41a3-a0e9-782ab3b2bb23"} 
+{:block/content "\n\nRTS: Click-to-select units, drag-to-marquee, and hotkeys for commands."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295635-4e48-41a3-a0e9-782ab3b2bb23"}
+:block/parent 
+{:block/uuid #uuid "68295635-ab9a-4f2c-a96f-35e5e5c64873"}
+:block/uuid #uuid "68295635-c4dd-4790-9c26-7d16c9dcf42a"} 
+{:block/content "\n\n**UI**:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295635-ab9a-4f2c-a96f-35e5e5c64873"}
+:block/parent 
+{:block/uuid #uuid "68295635-46b3-431f-859d-6ef1e0148ef6"}
+:block/uuid #uuid "68295635-6d8f-40d0-a27d-5e1ed3e8ea6e"} 
+{:block/content "\n\nFirst-person: Diegetic UI (e.g., holographic wrist display for health/ammo)."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295635-6d8f-40d0-a27d-5e1ed3e8ea6e"}
+:block/parent 
+{:block/uuid #uuid "68295635-6d8f-40d0-a27d-5e1ed3e8ea6e"}
+:block/uuid #uuid "68295635-4b2d-4afa-a5a7-d73b8e3c6033"} 
+{:block/content "\n\nRTS: Minimalist overlay with resource counters and unit panels."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295635-4b2d-4afa-a5a7-d73b8e3c6033"}
+:block/parent 
+{:block/uuid #uuid "68295635-6d8f-40d0-a27d-5e1ed3e8ea6e"}
+:block/uuid #uuid "68295635-a7ac-4f0a-8d16-a7a2c616a122"} 
+{:block/content "\n\n**AI Behavior for Automated Units**"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295635-46b3-431f-859d-6ef1e0148ef6"}
+:block/parent 
+{:block/uuid #uuid "682952ac-a55a-4cb8-94f1-28060faad185"}
+:block/uuid #uuid "68295635-afd9-48c7-a323-43dd697d9f4f"} 
+{:block/content "\n\nUse Godot’s `NavigationServer2D` for pathfinding (RTS view)."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295635-afd9-48c7-a323-43dd697d9f4f"}
+:block/parent 
+{:block/uuid #uuid "68295635-afd9-48c7-a323-43dd697d9f4f"}
+:block/uuid #uuid "68295635-b0c5-4433-af36-95f52a4fbcd3"} 
+{:block/content "\n\nFor drones/workers, implement a **priority system** (e.g., \"Repair damaged turrets > Collect resources > Patrol\")."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295635-b0c5-4433-af36-95f52a4fbcd3"}
+:block/parent 
+{:block/uuid #uuid "68295635-afd9-48c7-a323-43dd697d9f4f"}
+:block/uuid #uuid "68295635-c72d-4f0b-8653-2449467ddc7d"} 
+{:block/content "\n\n**Balancing Dual Perspectives**"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295635-afd9-48c7-a323-43dd697d9f4f"}
+:block/parent 
+{:block/uuid #uuid "682952ac-a55a-4cb8-94f1-28060faad185"}
+:block/uuid #uuid "68295635-a1cf-4a38-8d96-ff6b29db8d40"} 
+{:block/content "\n\n**Cooldowns**:\nSwitching views too frequently could feel jarring. Add a short cooldown\nor require the player to \"deploy\" into a Command Center to use RTS \nmode."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295635-a1cf-4a38-8d96-ff6b29db8d40"}
+:block/parent 
+{:block/uuid #uuid "68295635-a1cf-4a38-8d96-ff6b29db8d40"}
+:block/uuid #uuid "68295635-214d-4c5a-ab9e-46c5daa448c2"} 
+{:block/content "\n\n**Shared Resources**: Ensure actions in one view affect the other (e.g., building a turret in RTS mode drains materials gathered in first-person)."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295635-214d-4c5a-ab9e-46c5daa448c2"}
+:block/parent 
+{:block/uuid #uuid "68295635-a1cf-4a38-8d96-ff6b29db8d40"}
+:block/uuid #uuid "68295635-f5d1-4f23-98cd-d0db00d01a8b"} 
+{:block/content "### **Key Technical Challenges & Solutions**"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6829563c-3a96-4020-936f-f163ac2f5786"}
+:block/parent 
+{:block/uuid #uuid "682952ac-a55a-4cb8-94f1-28060faad185"}
+:block/properties 
+{:heading 3}
+:block/uuid #uuid "6829563b-5d17-4cb2-81af-017570ca5e68"} 
+{:block/content "### **Key Technical Challenges & Solutions**"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295615-7a84-4e24-9f0e-ddb37a392af1"}
+:block/parent 
+{:block/uuid #uuid "682952ac-a55a-4cb8-94f1-28060faad185"}
+:block/properties 
+{:heading 3}
+:block/uuid #uuid "6829563c-3a96-4020-936f-f163ac2f5786"} 
+{:block/content "\n\n**Switching Perspectives Smoothly**"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295615-7a84-4e24-9f0e-ddb37a392af1"}
+:block/parent 
+{:block/uuid #uuid "68295615-7a84-4e24-9f0e-ddb37a392af1"}
+:block/properties 
+{}
+:block/uuid #uuid "6829566c-5a94-410a-aead-5f395fe3295e"} 
+{:block/content "\n\n**Godot Tip**: Use `Viewport` nodes or separate cameras with layer masks to toggle between views."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6829566c-5a94-410a-aead-5f395fe3295e"}
+:block/parent 
+{:block/uuid #uuid "6829566c-5a94-410a-aead-5f395fe3295e"}
+:block/uuid #uuid "6829566c-5db1-4deb-9f83-932b9bc1b49f"} 
+{:block/content "\n\n**Input Handling**:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6829566c-5db1-4deb-9f83-932b9bc1b49f"}
+:block/parent 
+{:block/uuid #uuid "6829566c-5a94-410a-aead-5f395fe3295e"}
+:block/uuid #uuid "6829566c-bf03-47cf-8f65-212c48439c7c"} 
+{:block/content "\n\nFirst-person: WASD + mouse for movement/aiming."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6829566c-bf03-47cf-8f65-212c48439c7c"}
+:block/parent 
+{:block/uuid #uuid "6829566c-bf03-47cf-8f65-212c48439c7c"}
+:block/uuid #uuid "6829566c-2b1c-4ecc-8909-edc3a01b741f"} 
+{:block/content "\n\nRTS: Click-to-select units, drag-to-marquee, and hotkeys for commands."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6829566c-2b1c-4ecc-8909-edc3a01b741f"}
+:block/parent 
+{:block/uuid #uuid "6829566c-bf03-47cf-8f65-212c48439c7c"}
+:block/uuid #uuid "6829566c-3003-4419-8ccc-c7fbbb025968"} 
+{:block/content "\n\n**UI**:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6829566c-bf03-47cf-8f65-212c48439c7c"}
+:block/parent 
+{:block/uuid #uuid "6829566c-5a94-410a-aead-5f395fe3295e"}
+:block/uuid #uuid "6829566c-ad2e-4ba7-b4ce-a3dc83cd9c5b"} 
+{:block/content "\n\nFirst-person: Diegetic UI (e.g., holographic wrist display for health/ammo)."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6829566c-ad2e-4ba7-b4ce-a3dc83cd9c5b"}
+:block/parent 
+{:block/uuid #uuid "6829566c-ad2e-4ba7-b4ce-a3dc83cd9c5b"}
+:block/uuid #uuid "6829566c-0f17-4b82-a68a-d3bf1d822825"} 
+{:block/content "\n\nRTS: Minimalist overlay with resource counters and unit panels."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6829566c-0f17-4b82-a68a-d3bf1d822825"}
+:block/parent 
+{:block/uuid #uuid "6829566c-ad2e-4ba7-b4ce-a3dc83cd9c5b"}
+:block/uuid #uuid "6829566c-1e82-4d2c-a42e-c3d1c5f2237a"} 
+{:block/content "\n\n**AI Behavior for Automated Units**"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6829566c-5a94-410a-aead-5f395fe3295e"}
+:block/parent 
+{:block/uuid #uuid "68295615-7a84-4e24-9f0e-ddb37a392af1"}
+:block/uuid #uuid "6829566c-7f99-4075-b33a-d0e8ae69065d"} 
+{:block/content "\n\nUse Godot’s `NavigationServer2D` for pathfinding (RTS view)."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6829566c-7f99-4075-b33a-d0e8ae69065d"}
+:block/parent 
+{:block/uuid #uuid "6829566c-7f99-4075-b33a-d0e8ae69065d"}
+:block/uuid #uuid "6829566c-50c6-472c-9279-8d8f78cbcdee"} 
+{:block/content "\n\nFor drones/workers, implement a **priority system** (e.g., \"Repair damaged turrets > Collect resources > Patrol\")."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6829566c-50c6-472c-9279-8d8f78cbcdee"}
+:block/parent 
+{:block/uuid #uuid "6829566c-7f99-4075-b33a-d0e8ae69065d"}
+:block/uuid #uuid "6829566c-a65e-4633-a017-d832bb3cd87a"} 
+{:block/content "\n\n**Balancing Dual Perspectives**"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6829566c-7f99-4075-b33a-d0e8ae69065d"}
+:block/parent 
+{:block/uuid #uuid "68295615-7a84-4e24-9f0e-ddb37a392af1"}
+:block/uuid #uuid "6829566c-3f66-437b-9794-79cba8531f05"} 
+{:block/content "\n\n**Cooldowns**:\nSwitching views too frequently could feel jarring. Add a short cooldown\nor require the player to \"deploy\" into a Command Center to use RTS \nmode."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6829566c-3f66-437b-9794-79cba8531f05"}
+:block/parent 
+{:block/uuid #uuid "6829566c-3f66-437b-9794-79cba8531f05"}
+:block/uuid #uuid "6829566c-e446-4555-a08f-600c507e761d"} 
+{:block/content "\n\n**Shared Resources**: Ensure actions in one view affect the other (e.g., building a turret in RTS mode drains materials gathered in first-person)."
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6829566c-e446-4555-a08f-600c507e761d"}
+:block/parent 
+{:block/uuid #uuid "6829566c-3f66-437b-9794-79cba8531f05"}
+:block/uuid #uuid "6829566c-5f60-42dc-9715-27734063c2ac"} 
+{:block/content "Inspiration"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6829561d-8958-41f0-a17c-6d7710f610cf"}
+:block/parent 
+{:block/uuid #uuid "682952ac-a55a-4cb8-94f1-28060faad185"}
+:block/properties 
+{}
+:block/uuid #uuid "6829575d-5a58-4f08-8110-f67195d1d1ff"} 
+{:block/created-at 1747539819449
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 4
+:scale [1 1]
+:pageId "6829575d-5a58-4f08-8110-f67195d1d1ff"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 40.999980877262495]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "3fa84d60-339a-11f0-b0e8-ff464e185bb6"
+:noFill false
+:point [80 1584]
+:parentId "682952ac-a55a-4cb8-94f1-28060faad185"
+:collapsedHeight 0
+:nonce 1747539803838}}
+:block/updated-at 1747539819449} 
+{:block/content "Factorio"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6829575d-5a58-4f08-8110-f67195d1d1ff"}
+:block/parent 
+{:block/uuid #uuid "682952ac-a55a-4cb8-94f1-28060faad185"}
+:block/uuid #uuid "68295770-034f-4576-bed2-7309d01f4570"} 
+{:block/created-at 1747539824747
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 5
+:scale [1 1]
+:pageId "68295770-034f-4576-bed2-7309d01f4570"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 40.999980877262495]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "4a8621d0-339a-11f0-b0e8-ff464e185bb6"
+:noFill false
+:point [-104 1728]
+:parentId "682952ac-a55a-4cb8-94f1-28060faad185"
+:collapsedHeight 0
+:nonce 1747539821679}}
+:block/updated-at 1747539824747} 
+{:block/content "Satisfactory"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295770-034f-4576-bed2-7309d01f4570"}
+:block/parent 
+{:block/uuid #uuid "682952ac-a55a-4cb8-94f1-28060faad185"}
+:block/uuid #uuid "68295776-9ac4-4ee4-8684-fadbbd2c0d1c"} 
+{:block/created-at 1747539836116
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 6
+:scale [1 1]
+:pageId "68295776-9ac4-4ee4-8684-fadbbd2c0d1c"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 41]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "4d4fc920-339a-11f0-b0e8-ff464e185bb6"
+:noFill false
+:point [-104 1784]
+:parentId "682952ac-a55a-4cb8-94f1-28060faad185"
+:collapsedHeight 0
+:nonce 1747539826562}}
+:block/updated-at 1747539836116} 
+{:block/content "#My_plan"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295776-9ac4-4ee4-8684-fadbbd2c0d1c"}
+:block/parent 
+{:block/uuid #uuid "682952ac-a55a-4cb8-94f1-28060faad185"}
+:block/properties 
+{}
+:block/uuid #uuid "68295780-7696-4436-9780-0a43fa3163e7"} 
+{:block/content ""
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "68295780-7696-4436-9780-0a43fa3163e7"}
+:block/parent 
+{:block/uuid #uuid "68295780-7696-4436-9780-0a43fa3163e7"}
+:block/properties 
+{}
+:block/uuid #uuid "682957c3-3759-4250-bccd-abd3f6a3cff5"} 
+{:block/created-at 1747540811452
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 7
+:scale [1 1]
+:pageId "My_plan"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 396.99998401922016]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "263975a0-339c-11f0-b0e8-ff464e185bb6"
+:noFill false
+:point [1712 -32]
+:parentId "682952ac-a55a-4cb8-94f1-28060faad185"
+:collapsedHeight 0
+:nonce 1747540620676}}
+:block/updated-at 1747540811452} 
+{:block/created-at 1747540663501
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 8
+:scale [1 1]
+:pageId "Combat"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 229]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "334cc7b0-339c-11f0-b0e8-ff464e185bb6"
+:noFill false
+:point [1512 384]
+:parentId "682952ac-a55a-4cb8-94f1-28060faad185"
+:collapsedHeight 0
+:nonce 1747540642003}}
+:block/updated-at 1747540663501} 
+{:block/created-at 1747540680142
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 9
+:scale [1 1]
+:pageId "Exploration"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 252.99999651699085]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "42affd30-339c-11f0-b0e8-ff464e185bb6"
+:noFill false
+:point [1928 384]
+:parentId "682952ac-a55a-4cb8-94f1-28060faad185"
+:collapsedHeight 0
+:nonce 1747540667687}}
+:block/updated-at 1747540680142} 
+{:block/created-at 1747540720618
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 10
+:scale [1 1]
+:pageId "Building"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 305.99998322868794]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "4b8a3970-339c-11f0-b0e8-ff464e185bb6"
+:noFill false
+:point [1928 656]
+:parentId "682952ac-a55a-4cb8-94f1-28060faad185"
+:collapsedHeight 0
+:nonce 1747540682687}}
+:block/updated-at 1747540720618} 
+{:block/created-at 1747540701391
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 11
+:scale [1 1]
+:pageId "AdvancedMovement"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 461.0001175097637]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "52fb21b0-339c-11f0-b0e8-ff464e185bb6"
+:noFill false
+:point [1512 632]
+:parentId "682952ac-a55a-4cb8-94f1-28060faad185"
+:collapsedHeight 0
+:nonce 1747540695077}}
+:block/updated-at 1747540701391})
+:pages (
+{:block/uuid #uuid "682952ac-a55a-4cb8-94f1-28060faad185"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "682952ac-a55a-4cb8-94f1-28060faad185"
+:name "brain storming"
+:bindings 
+{}
+:nonce 1
+:assets []
+:shapes-index ("94e86870-3398-11f0-b0e8-ff464e185bb6" "3a268060-3399-11f0-b0e8-ff464e185bb6" "4e75a0f0-3399-11f0-b0e8-ff464e185bb6" "7c9e3000-3399-11f0-b0e8-ff464e185bb6" "3fa84d60-339a-11f0-b0e8-ff464e185bb6" "4a8621d0-339a-11f0-b0e8-ff464e185bb6" "4d4fc920-339a-11f0-b0e8-ff464e185bb6" "263975a0-339c-11f0-b0e8-ff464e185bb6" "334cc7b0-339c-11f0-b0e8-ff464e185bb6" "42affd30-339c-11f0-b0e8-ff464e185bb6" "4b8a3970-339c-11f0-b0e8-ff464e185bb6" "52fb21b0-339c-11f0-b0e8-ff464e185bb6")}}
+:block/updated-at 1747540811451
+:block/created-at 1747538604383
+:block/type "whiteboard"
+:block/name "brain storming"
+:block/original-name "brain storming"})}

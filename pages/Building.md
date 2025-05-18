@@ -1,0 +1,6 @@
+- Everything is buildable in both modes but some things may be more useful in one mode over another.
+- Traps
+- Walls
+- Factories
+- Turrets
+- Drone stations

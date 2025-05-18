@@ -1,0 +1,5 @@
+- 1st peron
+	- Guns
+	- Melee Weapons
+	- traps
+	- Enviromental Kills

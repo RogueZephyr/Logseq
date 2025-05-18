@@ -1,0 +1,13 @@
+- Generic 1st Person movement
+	- Walk
+	- Run
+	- Crouch
+- Advanced movement
+	- Edge climb
+	- Vault over obstacles
+	- Slide
+	- Grappling hook
+		- Zipline
+		- Physics Rope
+	- Jetpack (Perhaps)
+	- Glider (Perhaps)

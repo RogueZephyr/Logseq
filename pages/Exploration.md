@@ -1,0 +1,5 @@
+- Procedural map generation
+- abandoned Structures
+	- Has a chance to give early research or useful loot
+- Enemy spawners
+- Recon of the area around the player base
